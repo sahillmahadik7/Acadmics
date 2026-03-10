@@ -1,0 +1,17 @@
+# Core LLM & LangGraph
+langchain-google-genai
+langchain-core
+langgraph
+
+# Google GenAI SDK (for image generation)
+google-genai
+
+# Data validation
+pydantic
+
+# Frontend
+streamlit
+pandas
+
+# Environment variables
+python-dotenv
