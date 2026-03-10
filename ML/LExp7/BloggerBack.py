@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyDANec9dC00iJXYJKBK2LKRXXBXW2PNzXk")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", )
 TEXT_MODEL     = os.getenv("GEMINI_TEXT_MODEL", "gemini-3.1-flash-lite-preview")
 IMAGE_MODEL    = os.getenv("GEMINI_IMAGE_MODEL", "gemini-3.1-flash-image-preview")
 
