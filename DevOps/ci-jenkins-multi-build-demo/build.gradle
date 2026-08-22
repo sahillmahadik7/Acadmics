@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.vit.demo'
+version = '1.0.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'com.vit.demo.App'
+        )
+    }
+    archiveBaseName.set('ci-jenkins-demo')
+}
+
+test {
+    testLogging {
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+}

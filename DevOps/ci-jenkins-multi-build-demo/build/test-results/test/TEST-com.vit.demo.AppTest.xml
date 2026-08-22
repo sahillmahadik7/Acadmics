@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vit.demo.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-08-08T17:36:55.990Z" hostname="DESKTOP-O8IRN7T" time="0.015">
+  <properties/>
+  <testcase name="testAdd" classname="com.vit.demo.AppTest" time="0.009"/>
+  <system-out><![CDATA[TEST PASSED: App.add(2, 3) returned 5.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
